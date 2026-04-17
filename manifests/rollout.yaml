@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/lazarariana/ci_cd_lab@sha256:07977fe4ade341eae77d67928fa46a533c035a998af2d32d876af9fe1406854b
+          image: ghcr.io/lazarariana/go-simple-webserver@sha256:83a80b2451498f6a6721b9fce74a03eb4a2273b42a7e2dfd28ed42b2f7ff31bc
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
