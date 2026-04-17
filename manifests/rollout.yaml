@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/lazarariana/ci_cd_lab:latest
+          image: ghcr.io/lazarariana/ci_cd_lab:lates
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
